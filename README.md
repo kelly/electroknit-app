@@ -16,11 +16,6 @@ To package apps for all platforms:
 npm run package-all
 ```
 
-## Binaries
-
-- [OSX Binary](#)
-- [Windows Binary](#)
-
 ## Questions?
 
 http://www.twitter.com/korevec
