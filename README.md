@@ -16,6 +16,10 @@ To package apps for all platforms:
 npm run package-all
 ```
 
+## Binaries
+
+- [OSX Binary](https://github.com/kelly/electroknit-app/raw/master/binary/Electroknit-darwin-x64.zip)
+
 ## Questions?
 
 http://www.twitter.com/korevec
