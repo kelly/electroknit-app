@@ -1,0 +1,63 @@
+@import "../config/colors";
+@import "../config/layout";
+
+.container {
+  position: relative;
+}
+
+.header {
+  background: lighten($background-color, 2%);
+  border-bottom: 1px solid lighten($border-color-light, 15%);
+  padding: $base-spacing;
+  button {
+    min-width: 80px;
+  }
+}
+
+.header-title {
+  z-index: 0;
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  font-size:1.2em;
+  pointer-events: none;
+  line-height: 50px;
+}
+
+.start-button, .port-button {
+  z-index: 100;
+  position: relative;
+}
+
+.port-button {
+  float: left;
+}
+
+.start-button {
+  float: right;
+}
+
+.workboard-container {
+  position: relative;
+  margin: 0 auto;
+  height: 800px;
+  overflow-y: auto;
+  width: 1000px;
+}
+
+.sensors-container, .pattern-container {
+  width: 1000px;
+  position: absolute;
+  top: 0;
+
+  canvas {
+    margin-top: 150px;
+    width: 1000px;
+  }
+}
+
+.sensors-container, .sensors-container canvas {
+  pointer-events: none;
+}

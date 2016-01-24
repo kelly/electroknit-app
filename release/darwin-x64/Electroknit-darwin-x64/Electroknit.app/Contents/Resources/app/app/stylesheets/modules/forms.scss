@@ -1,0 +1,14 @@
+@import "../config/colors";
+@import "../config/layout";
+
+input {
+	font-family: 'Electro Std Book';
+	background: $background-color-light;
+	padding: $base-spacing;
+	border: 1px solid $border-color-light;
+	color: $base-color;
+	border-radius: $border-radius;
+	outline: none;
+	font-size: 1em;
+	height: 46px;
+}

@@ -1,0 +1,20 @@
+@import "../config/colors";
+@import "../config/layout";
+
+.ball-grid-pulse {
+  background: $highlight-color;
+  border-radius: $border-radius;
+  z-index: 10000;
+  position: absolute;
+  left: 50%;
+  > div {
+  	background: #FFF;
+  }
+}
+
+.loader-hidden {
+  display: none;
+}
+.loader-active {
+  display: block;
+}
